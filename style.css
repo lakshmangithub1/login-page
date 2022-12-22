@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    background-image: linear-gradient(to right, #33ccff , #ff99cc);  
+    height: 100vh;
+    background-size: cover;
+    display: flex; 
+    flex-direction: row; 
+    justify-content:center; 
+    padding-top: 100px;
+    
+    
+    
+} 
+
+
+.main-bg {
+    background-color: #ffffff;  
+    width: 35vw;
+    align-self: flex-start;
+    border: 0px solid #ffffff; 
+    border-radius: 10px;  
+    
+    
+    
+      
+   
+
+} 
+.quetions {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+} 
+
+
+.forgot-pass-bg {
+    background-color: #ffffff;  
+    width: 35vw;
+    align-self: flex-start;
+    border: 0px solid #ffffff; 
+    border-radius: 10px;  
+    display: none;
+} 
+
+.signup-bg {
+    background-color: #ffffff;  
+    width: 35vw;
+    align-self: flex-start;
+    border: 0px solid #ffffff; 
+    border-radius: 10px; 
+    display: none; 
+    
+}
+
+@media (max-width:850px) {
+    .main-bg {
+        width: 60vw;
+    } 
+    .forgot-pass-bg {
+        width: 60vw;
+    } 
+    .signup-bg {
+        width: 60vw;
+    }
+}

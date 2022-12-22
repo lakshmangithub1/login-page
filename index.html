@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login page</title>
+</head>
+<body> 
+    <!--Login page-->
+    <div class="main-bg">
+        <div class="container">
+            <h3 style="text-align: center; padding-top: 10px;">LOGIN</h3>  
+            <form  id="myForm">
+                <div>
+                    <label for="username">Username</label> 
+                    <input type="text" id="username" placeholder="Enter your username" class="u-full-width">
+                </div>
+                <div>
+                    <label for="password">Password</label> 
+                    <input type="password" id="password" placeholder="Enter your password" class="u-full-width">
+                </div> 
+                
+                <div>
+                    <button type="submit" class="u-full-width" style="background-image: linear-gradient(to right, #33ccff , #ff99cc); color: #ffffff;">LOGIN</button>
+                </div>
+                <div class="quetions">
+                    <p  style="color: #6781f5;" id="forgotPassword">forgot password?</p> 
+                    <p  style="color:#6781f5 ; " id="signUp"> Sign up for free</p>
+                </div>
+            </form>
+            
+
+        </div>
+
+    </div> 
+    <!--Forgot password page-->
+    <div class="forgot-pass-bg">
+        <div class="container">
+            <h3 style="text-align: center; padding-top: 10px;">PASSWORD</h3>  
+            <form  id="passwordForm">
+                <div>
+                    <label for="confirmUsername">Username</label> 
+                    <input type="text" id="confirmUsername" placeholder="Confirm username" class="u-full-width">
+                </div>
+                <div>
+                    <label for="newPassword">New Password</label> 
+                    <input type="text" id="newPassword" placeholder="Enter new password" class="u-full-width">
+                </div> 
+                <div>
+                    <label for="confirmPassword">Confirm Password</label> 
+                    <input type="password" id="confirmPassword" placeholder="Confirm password" class="u-full-width">
+                </div> 
+                
+                <div>
+                    <button type="submit" class="u-full-width" style="background-image: linear-gradient(to right, #33ccff , #ff99cc); color: #ffffff;">SUBMIT</button>
+                </div>
+                <p  style="color:#6781f5 ;" id="pLoginPage"> go to Login page?</p>
+                
+            </form>
+            
+
+        </div>
+        
+    </div>
+    <!--signup page--> 
+    <div class="signup-bg">
+        <div class="container">
+            <h3 style="text-align: center; padding-top: 10px;">SIGN UP</h3>  
+            <form  id="signupForm">
+                <div>
+                    <label for="fullname">Fullname</label> 
+                    <input type="text" id="username" placeholder="Enter your Fullname" class="u-full-width">
+                </div>
+                
+                <div>
+                    <label for="mailId">Email</label> 
+                    <input type="text" id="mailId" placeholder="Enter your mail" class="u-full-width">
+                </div> 
+                <div>
+                    <label for="createPassword">Create Password</label> 
+                    <input type="text" id="createPassword" placeholder="Enter new password" class="u-full-width">
+                </div> 
+                <div>
+                    <label for="SConfirmPassword">Confirm Password</label> 
+                    <input type="password" id="SConfirmPassword" placeholder="Confirm password" class="u-full-width">
+                </div> 
+
+                
+                <div>
+                    <button type="submit" class="u-full-width" style="background-image: linear-gradient(to right, #33ccff , #ff99cc); color: #ffffff;">LOGIN</button>
+                </div>
+                
+                 
+                <p  style="color:#6781f5 ; " id="CLoginPage"> Have an account Login?</p>
+                
+            </form>
+            
+
+        </div>
+
+    </div> 
+
+
+   <script src="app.js"></script> 
+</body>
+</html>
